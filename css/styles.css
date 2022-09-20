@@ -137,7 +137,6 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
-    outline: 3px solid tomato;
 }
 .hero-title {
     margin-top: 0px;
@@ -182,7 +181,6 @@ img {
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
-    /* outline: 3px solid aqua; */
 }
 /* OUR FEATURES */
 
@@ -222,16 +220,19 @@ img {
     margin-top: 0;
     margin-bottom: 0;
 }
-.feature-list .item::before {
-    content:' ';
+.feature-icons {
     display: flex;
-    /* outline: 1px solid tomato; */
+    /* width: 270; */
     height: 120px;
     margin-bottom: 30px;
 
     background-color: var(--team-bkgd-color);
     border-radius: 4px;
+
+    align-items: center;
+    justify-content: center;
 }
+
 .icon-antenna::before {
     background-image: url('../images/features/antenna.svg');
     background-repeat:no-repeat;
@@ -251,7 +252,7 @@ img {
     background-image: url('../images/features/astronaut.svg');
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 /* WHAT WE ARE DOING (WORK)*/
 .work {
     padding-top: 0;
